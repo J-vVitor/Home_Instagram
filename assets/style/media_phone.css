@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@media screen and (min-width:320px) and (max-width:400px) {
+
+
+    #imagem{
+        display: none;
+    }
+
+    #container{
+      
+        margin: auto;
+    }
+
+    #login1{
+        width: 305px;
+        margin: auto;
+    }
+
+    input{
+        width: 230px;
+        position: relative;
+        left: -10px;
+    }
+
+    button{
+        width: 230px;
+        position: relative;
+        left: -10px;
+    }
+
+    footer{
+        width: 270px;
+        margin-left: 4px;
+    }
+
+    footer ul{
+        width: 276px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;       
+    }
+
+    footer p{
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:500px) {
+    #imagem{
+        display: none;
+    }
+    #login1{
+        width: 400px;
+    }
+
+    footer ul{
+        padding:0px;
+        width: 300px;
+        height: 80px;
+        flex-wrap: wrap;
+        justify-content: center ; 
+        display: flex; 
+    }
+
+    footer ul li a{
+        width: 400px;
+        font-size: 10px;
+        margin-left: 4px;
+    }
+
+    #separator span{
+        background-color: red;
+        z-index: 1;
+    }
+}
